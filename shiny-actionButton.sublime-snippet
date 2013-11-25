@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<button id="${1:id}" type="button" class="btn action-button btn-${3:primary} ${4:btn-block}">${2:label}</button>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shinyactionbutton</tabTrigger>
+  <description>The action button for Shiny</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>html.text.basic</scope>
+</snippet>
