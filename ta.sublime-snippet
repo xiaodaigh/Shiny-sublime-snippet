@@ -1,0 +1,11 @@
+<snippet>  
+  <content><![CDATA[
+<div class="container-fluid">
+  <label for="${1:id}">${2:label}</label>
+  <input id="${1:id}" type="text" value=""/>
+</div>
+]]></content>
+  <tabTrigger>ta</tabTrigger>
+  <description>Shiny Text Area</description>
+  <scope>text.html.basic</scope>
+</snippet>

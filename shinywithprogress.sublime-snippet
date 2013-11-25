@@ -1,0 +1,14 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+withProgress(session, min=0, max=100, {
+      setProgress(message = 'Determine if there are duplicate records...',
+                  detail = 'This may take a few minutes...', value = 0)
+      })
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shinywithprogress</tabTrigger>
+  <description>The progress bar feature from Shiny Incubator</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.r</scope>
+</snippet>
