@@ -6,5 +6,5 @@
   <tabTrigger>shinyactionbutton</tabTrigger>
   <description>The action button for Shiny</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>html.text.basic</scope>
+  <scope>text.html</scope>
 </snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<input data-name="${1:id}" type="text" value="" class="input-medium typeahead" placeholder="${2:placeholder}" autocomplete="off" spellcheck="false" style="margin: 0 auto; "/>
+]]></content>
+	<tabTrigger>shinytypeahead</tabTrigger> 
+<!-- #	<scope>html.text.basic</scope>  -->
+</snippet>
